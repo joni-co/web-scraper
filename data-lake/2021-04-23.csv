@@ -1,0 +1,7 @@
+,name,date,file_name,status,original_url,final_url,encoding
+0,sz,2021-04-23,data-lake\2021-04-23-sz.html,200,https://www.sueddeutsche.de/,https://www.sueddeutsche.de/,UTF-8
+1,zeit,2021-04-23,data-lake\2021-04-23-zeit.html,200,https://www.zeit.de/index,https://www.zeit.de/index,UTF-8
+2,faz,2021-04-23,data-lake\2021-04-23-faz.html,200,https://www.faz.net/aktuell/,https://www.faz.net/aktuell/,utf-8
+3,ts,2021-04-23,data-lake\2021-04-23-ts.html,200,https://www.tagesspiegel.de/,https://www.tagesspiegel.de/,utf-8
+4,spiegel,2021-04-23,data-lake\2021-04-23-spiegel.html,200,https://www.spiegel.de/,https://www.spiegel.de/,utf-8
+5,kronen,2021-04-23,data-lake\2021-04-23-kronen.html,403,https://www.krone.at/,https://www.krone.at/,utf-8

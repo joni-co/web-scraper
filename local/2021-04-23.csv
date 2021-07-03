@@ -1,0 +1,7 @@
+,name,date,file_name,status,url,encoding
+0,sz,2021-04-23,local\2021-04-23-sz.html,200,https://www.sueddeutsche.de/,UTF-8
+1,zeit,2021-04-23,local\2021-04-23-zeit.html,200,https://www.zeit.de/index,UTF-8
+2,faz,2021-04-23,local\2021-04-23-faz.html,200,https://www.faz.net/aktuell/,utf-8
+3,ts,2021-04-23,local\2021-04-23-ts.html,200,https://www.tagesspiegel.de/,utf-8
+4,spiegel,2021-04-23,local\2021-04-23-spiegel.html,200,https://www.spiegel.de/,utf-8
+5,kronen,2021-04-23,local\2021-04-23-kronen.html,200,https://www.krone.at/,ISO-8859-1
