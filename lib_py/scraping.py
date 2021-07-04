@@ -8,7 +8,7 @@ from datetime import datetime
 import pandas as pd
 import requests
 
-SOURCES_PATH = os.path.join("input", "web-sources.csv")
+SOURCES_PATH = os.path.join("../input", "web-sources.csv")
 STORAGE_PATH = os.path.join("data-lake")
 
 # Read sources
