@@ -9,7 +9,7 @@ import pandas as pd
 import requests
 
 SOURCES_PATH = os.path.join("../input", "web-sources.csv")
-STORAGE_PATH = os.path.join("data-lake")
+STORAGE_PATH = os.path.join("../data-lake")
 
 # Read sources
 web_sources = pd.read_csv(SOURCES_PATH)
@@ -60,7 +60,7 @@ def scrape_website(name, url):
 
 def scrape_wrapper(newspaper):
     url = newspaper["url"]
-    name = newspaper["id"]
+    name = newspaper["name"]
     try:
         scrape_website(name, url)
         print(f"[INFO] Scraped {name} ({url})")
