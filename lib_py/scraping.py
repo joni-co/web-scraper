@@ -35,7 +35,7 @@ def scrape_website(name, url):
     # (2) File name to store the raw HTML
     file_name = os.path.join(
         STORAGE_PATH,
-        f"{now_str}-{name}.html",
+        f"{now_str}-{name}.html"
     )
 
     # (3) Write raw HTML
@@ -73,7 +73,7 @@ web_sources.apply(scrape_wrapper, axis=1)
 
 log_file_name = os.path.join(
     STORAGE_PATH,
-    f"{now_str}.csv",
+    f"{now_str}.csv"
 )
 log_df = pd.DataFrame(log_list)
 log_df.to_csv(log_file_name)
